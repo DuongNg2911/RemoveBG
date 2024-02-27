@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    {% for origin in response_urls %}
+    <div style="display: flex; flex-direction: column; padding: 10px">
+      <img
+        src="{{origin}}"
+        alt="Image"
+        class="image"
+        height="50%"
+        width="50%"
+        style="margin: 0 auto"
+      />
+    </div>
+    {% endfor %}
+  </body>
+</html>
