@@ -7,3 +7,6 @@ requests
 django-cors-headers
 pexels-api
 django-storages
+numpy
+onnxruntime
+opencv-python
